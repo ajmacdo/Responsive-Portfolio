@@ -1,0 +1,127 @@
+
+.container {
+    width: 980px;
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding: 16px 0 48px 0;
+    background-color: #ffffff;
+}
+
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("https://files.123freevectors.com/wp-content/original/146616-abstract-grey-and-white-blurred-bokeh-background-vector-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto 0 auto;
+}
+
+h4 {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0 auto 0 auto;
+}
+
+h5 {
+    color: teal;
+    margin: 0 auto 0 auto;
+    padding: 24px 0 24px 12px;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-bottom: 1px solid silver;
+}
+
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: space-between;
+}
+
+footer {
+    background-color: #666666;
+    border-color: #cccccc;
+    padding: 16px 0 16px 0;
+    margin: 0 auto 0 auto;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    font-size: 80%;
+    font-style: italic;
+    color: silver;
+}
+
+img {
+    border-radius: 50%;
+    max-height: 150px;
+    max-width: 200px;
+    min-width: 120px;
+    min-height: 140px;
+    width: 120px;
+    height: 140px;
+    padding: 12px;
+}
+
+#name {
+    margin: 0 auto 0 0;
+    padding: 12px 0 12px 0;
+    width: 30%;
+    justify-self: flex-start;
+    font-size: 24px;
+}
+
+
+nav {
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+
+#nav_bar {
+    margin: 24px auto 0 auto;
+    display: flex;
+    border-bottom: 1px solid silver;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+li {
+    text-align: right;
+    padding: 12px;
+    list-style: none;
+}
+
+a {
+    justify-content: flex-end;
+}
+
+p {
+    padding: 16px;
+}
+
+@media only screen and (max-width: 980px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+    }
+}
+
